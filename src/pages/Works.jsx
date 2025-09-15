@@ -6,15 +6,15 @@ import { Footer } from "../components/Footer";
 
 export const Works = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+    <div className="min-h-screen bg-background text-foreground overflow-x-hidden flex flex-col">
         <ThemeToggle />
         <StarBackground />
 
-        <main>
+        <main className="flex-1">
         <WorkSection />
         <ContactSection />
-        <Footer />
         </main>
+        <Footer />
 
     </div>
   )
