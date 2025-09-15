@@ -132,7 +132,6 @@ export const Admin = () => {
 
         {message && <p className="mt-4 text-center text-sm text-muted">{message}</p>}
         <p className="mt-4 text-sm text-muted text-center">
-          При желании можно добавить превью изображения и поля title/description.
         </p>
       </div>
     </div>
